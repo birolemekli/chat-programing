@@ -1,2 +1,6 @@
 Node js chat programing
-# chat-programing
+# START
+
+npm install
+
+nodemon
