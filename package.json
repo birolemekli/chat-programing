@@ -1,7 +1,7 @@
 {
-  "name": "chat",
-  "version": "1.0.0",
-  "description": "",
+  "name": "chatprograming",
+  "version": "1.0.2",
+  "description": "Chat",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,16 @@
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birolemekli/chat-programing.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/birolemekli/chat-programing/issues"
+  },
+  "homepage": "https://github.com/birolemekli/chat-programing#readme"
 }
