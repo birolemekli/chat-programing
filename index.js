@@ -5,16 +5,8 @@ var socket = require('socket.io');
 var path = require('path');
 const mongo = require('mongodb').MongoClient;
 
-//Server instance
 var server = http.createServer(app);
-//build a socket using the instance of the server
 var io=socket(server);
-
-
-
-
-//app.use()  gerekli olan middleware (fonksiyon) leri eklemek (aktif hale getirmek) için kullanılır
-//app.use(logger('dev'));
 
 app.use(express.static(__dirname + '/node_modules'));
 
@@ -23,14 +15,6 @@ app.get('/',function(req,res){
     res.sendFile(__dirname + '/public/index.html');
 
 });
-
-
-app.get('/birol',function(req,res){
-
-    res.sendFile(__dirname + '/public/birol.html');
-
-});
-
 
 server.listen(5000,function(){
     console.log("Sunucu 5000 portunu dinliyor...");
